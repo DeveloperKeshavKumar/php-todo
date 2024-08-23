@@ -17,3 +17,4 @@ $router->get("/login", "controllers/signin.php");
 
 $router->post("/register", "controllers/register.php");
 $router->post("/login", "controllers/login.php");
+$router->get("/logout", "controllers/logout.php");
