@@ -18,7 +18,7 @@
                </div>
             </div>
          </div>
-         <?= isset($_SESSION)?'<a href="/logout" class="text-white font-semibold text-lg">Logout</a>':null?>
+         <?= count($_SESSION) !== 0?'<a href="/logout" class="text-white font-semibold text-lg">Logout</a>':null?>
       </div>
    </div>
 </nav>
