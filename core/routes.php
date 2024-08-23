@@ -9,8 +9,8 @@ $router->post("/todos/create", "controllers/create.php");
 $router->get("/todo", "controllers/show.php");
 $router->get("/todo/edit", "controllers/edit-todo.php");
 $router->get("/todo/delete", "controllers/remove-todo.php");
-$router->patch("/todo", "controllers/update.php");
-$router->delete("/todo", "controllers/delete.php");
+$router->patch("/todo/edit", "controllers/update.php");
+$router->delete("/todo/delete", "controllers/delete.php");
 
 $router->get("/register", "controllers/signup.php");
 $router->get("/login", "controllers/signin.php");
